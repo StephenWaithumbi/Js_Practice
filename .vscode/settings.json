@@ -1,0 +1,23 @@
+{
+  // Enable method suggestions (e.g. array/string methods) and allow inline completions
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  // Trigger suggestions when typing characters like '.' and other trigger chars
+  "editor.suggestOnTriggerCharacters": true,
+  // Choose how Enter accepts suggestions: "on" will accept with Enter
+  "editor.acceptSuggestionOnEnter": "on",
+  // Re-enable inline suggestions (e.g. Copilot-style single-line/whole-line completions)
+  "editor.inlineSuggest.enabled": true,
+  "editor.parameterHints.enabled": true,
+  // Language-specific override for JavaScript (object form to satisfy schema)
+  "[javascript]": {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": false
+    }
+  }
+}

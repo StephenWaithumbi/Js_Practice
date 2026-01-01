@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch up</title>    
+    <script>
+        let carName = "Volvo";
+
+        function hello() {
+            document.getElementById("demo").innerHTML = "<strong>Welcome Here</strong>"
+        }
+        // window.alert("Thanks")
+        
+    </script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <p1 id="demo">Welcome Here</p1><br>
+    <p id="car"></p>
+    
+    <button onclick="hello()">Change Text</button>
+    <button onclick="window.print()">Print this page</button>
+
+    <script>
+        const car = {}   
+        
+        car.name = 'note';
+        car.color = 'blue';
+        car.weight = 800
+        
+        document.getElementById('car').innerHTML = car.color;
+        console.log(car.weight)
+    </script>    
+</body>
+</html>
