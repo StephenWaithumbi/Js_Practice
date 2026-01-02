@@ -1,5 +1,5 @@
-//maths
+// typeofs
 
-res = Math.floor(Math.random()* 10)
+let num = 1234n
 
-console.log(res)
+console.log(typeof(num))
