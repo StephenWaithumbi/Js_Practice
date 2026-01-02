@@ -1,3 +1,5 @@
 //maths
 
-console.log(-1>0)
+res = Math.floor(Math.random()* 10)
+
+console.log(res)
