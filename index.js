@@ -1,15 +1,9 @@
-// typeofs
+//to string
 
-let dat = new Date()
+function myFunction(a, b){
+    return a * b
+}
 
-let fruits = new Map([
-    ['apples', 200],
-    ['mangos', 100],
-    ['pinapples', 40]
-])
+results = myFunction(3, 5)
 
-let fname = NaN
-
-console.log(dat.constructor)
-
-console.log(fname.constructor)
+console.log(myFunction.toString())
