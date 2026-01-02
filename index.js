@@ -1,5 +1,15 @@
 // typeofs
 
-let num = 1234n
+let dat = new Date()
 
-console.log(typeof(num))
+let fruits = new Map([
+    ['apples', 200],
+    ['mangos', 100],
+    ['pinapples', 40]
+])
+
+let fname = NaN
+
+console.log(dat.constructor)
+
+console.log(fname.constructor)
