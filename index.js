@@ -1,22 +1,19 @@
-//to string
+// error handling
 
-function myFunction(a, b){
-    return a * b
+let y = 5;
+
+try {
+    x = i + 1
+} catch(err){
+    let txt = err.message
+    // console.log(txt)
 }
 
-results = myFunction(3, 5)
 
+try {    
+    annannn(5);
+}catch(err){
+    let text = err.message
+    console.log(text)
+}
 
-
-// console.log((12+32).toString())
-
-//number()
-
-let nums = "20"
-// console.log(Number(Math.PI))
-
-//dates
-
-let date = new Date()
-
-console.log(date.toString())
