@@ -14,12 +14,20 @@ try {
     annannn(5);
 }catch(err){
     let text = err.message
-    console.log(text)
+    // console.log(text)
 }
 
 //silent errors 
 
 let x = 1 / 0;
 
-console.log(x)
+// console.log(x)
 
+
+//debugging
+
+let f = 5 * 10;
+
+debugger;
+
+console.log(f)
