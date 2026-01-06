@@ -1,33 +1,9 @@
-// error handling
+firstName = "John";
+lastName = "Doe";
 
-let y = 5;
+price = 19.90;
+tax = 0.20;
 
-try {
-    x = i + 1
-} catch(err){
-    let txt = err.message
-    // console.log(txt)
-}
+fullPrice = price + (price * tax);
 
-
-try {    
-    annannn(5);
-}catch(err){
-    let text = err.message
-    // console.log(text)
-}
-
-//silent errors 
-
-let x = 1 / 0;
-
-// console.log(x)
-
-
-//debugging
-
-let f = 5 * 10;
-
-debugger;
-
-console.log(f)
+console.log(fullPrice)
