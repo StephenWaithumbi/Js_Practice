@@ -7,3 +7,9 @@ tax = 0.20;
 fullPrice = price + (price * tax);
 
 console.log(fullPrice)
+
+function girl() {
+    return 'ems'
+}
+
+console.log(girl())
