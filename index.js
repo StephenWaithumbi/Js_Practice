@@ -1,15 +1,5 @@
-firstName = "John";
-lastName = "Doe";
+//assignment
 
-price = 19.90;
-tax = 0.20;
+let x = 2
 
-fullPrice = price + (price * tax);
-
-console.log(fullPrice)
-
-function girl() {
-    return 'ems'
-}
-
-console.log(girl())
+console.log(Boolean(x=1))
