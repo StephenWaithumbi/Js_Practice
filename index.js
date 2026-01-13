@@ -1,7 +1,13 @@
-// rest day
+//functions
 
-//rest day 2
+const person = {
+    fname: 'emily',
+    lname: 'wairimu',
+    fullName: function (){
+        return this.fname + ' '+ this.lname
+    }
+}
 
-//unhappy to say I also rested today
+let name = person.fullName()
 
-//learnt about doms
+console.log(name)
