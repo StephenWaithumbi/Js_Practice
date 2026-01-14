@@ -10,4 +10,12 @@ const person = {
 
 let name = person.fullName()
 
-console.log(name)
+const person1 = {
+    fname: 'Maureen',
+    lname: 'Njeri'
+}
+
+console.log(person.fullName.call(person1))
+
+//call method
+
