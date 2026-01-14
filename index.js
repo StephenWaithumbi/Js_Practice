@@ -1,4 +1,5 @@
 //functions
+//call method
 
 const person = {
     fname: 'emily',
@@ -17,5 +18,24 @@ const person1 = {
 
 console.log(person.fullName.call(person1))
 
-//call method
+//apply method
+
+const dog = {
+    fullName: function(){
+        return this.fname + " " + this.lname
+    }
+}
+
+const dog1 = {
+    fname: 'bosco',
+    lname: 'popi'
+}
+
+const dog2 = {
+    fname: 'shake',
+    lname: 'junior'
+}
+
+let dogFullName = dog.fullName.apply(dog2)
+console.log(dogFullName)
 
