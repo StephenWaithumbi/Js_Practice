@@ -20,6 +20,7 @@ console.log(person.fullName.call(person1))
 
 //apply method
 
+
 const dog = {
     fullName: function(){
         return this.fname + " " + this.lname
@@ -38,4 +39,20 @@ const dog2 = {
 
 let dogFullName = dog.fullName.apply(dog2)
 console.log(dogFullName)
+
+//bind
+
+const child = {
+    fullName: function(){
+        return this.fname + ' ' + this.lname
+    }
+}
+
+const kid1 = {
+    fname: 'jose',
+    lname: 'konge'
+}
+
+const kidFullName = child.fullName.bind(kid1)
+console.log(kidFullName())
 
