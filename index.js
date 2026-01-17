@@ -56,3 +56,24 @@ const kid1 = {
 const kidFullName = child.fullName.bind(kid1)
 console.log(kidFullName())
 
+//rest
+//closurer
+
+function myCounter(){
+    let counter = 0;
+    return function (){
+        counter++
+        return counter
+    }
+}
+
+const add = myCounter()
+
+add()
+
+console.log(add())
+console.log(add())
+console.log(add())
+console.log(add())
+
+
