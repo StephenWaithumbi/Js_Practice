@@ -76,4 +76,12 @@ console.log(add())
 console.log(add())
 console.log(add())
 
+// Create an Object
+const person = new Object({
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue"
+});
+
 
