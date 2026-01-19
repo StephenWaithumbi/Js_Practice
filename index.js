@@ -77,11 +77,27 @@ console.log(add())
 console.log(add())
 
 // Create an Object
-const person = new Object({
+const person10 = new Object({
   firstName: "John",
   lastName: "Doe",
   age: 50,
   eyeColor: "blue"
 });
+
+const man = Object.create(person10)
+man.firstName = 'peter'
+console.log(man.firstName)
+
+
+//object destruturing
+
+const gal ={
+    herFname: 'mauree',
+    herLname: 'njee'
+}
+
+let {herFname, herLname} = gal
+
+console.log(herFname + ' '+ herLname)
 
 
