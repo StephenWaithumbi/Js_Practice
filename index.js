@@ -1,12 +1,15 @@
-// objects prototypes
+// getters
 
-function Person(first,last, age, grade) {
-    this.firstName = first;
-    this.lastName = last;
-    this.age = age;
-    this.grade = grade
+const person = {
+    fname: 'jane',
+    lname: 'shii',
+    age: 22,
+    get fullName(){
+        return this.fname + " "+ this.lname
+    }
 }
 
-const myGirl = new Person('emily', 'wairimu', 19, 'C')
+console.log(person.fullName)
 
-console.log(myGirl)
+
+
