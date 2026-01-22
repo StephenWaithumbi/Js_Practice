@@ -11,5 +11,14 @@ const person = {
 
 console.log(person.fullName)
 
+//object protection
+
+const person1 = {fname: 'joe', lname:'paul'}
+
+Object.preventExtensions(person1)
+person1.nationality='en'
+
+console.log(person1)
+
 
 
