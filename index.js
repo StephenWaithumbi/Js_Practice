@@ -21,4 +21,7 @@ person1.nationality='en'
 console.log(person1)
 
 
+console.log('Wasted day')
+
+
 
