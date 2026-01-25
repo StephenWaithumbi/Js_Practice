@@ -1,27 +1,12 @@
-// getters
+//tlass
 
-const person = {
-    fname: 'jane',
-    lname: 'shii',
-    age: 22,
-    get fullName(){
-        return this.fname + " "+ this.lname
+class Car {
+    constructor(name, year){
+        this.name = name;
+        this.year = year
     }
 }
 
-console.log(person.fullName)
+const car1 = new Car('mark X', 2020)
 
-//object protection
-
-const person1 = {fname: 'joe', lname:'paul'}
-
-Object.preventExtensions(person1)
-person1.nationality='en'
-
-console.log(person1)
-
-
-console.log('Wasted day')
-
-
-
+console.log(car1)
