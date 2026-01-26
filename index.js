@@ -10,3 +10,7 @@ class Car {
 const car1 = new Car('mark X', 2020)
 
 console.log(car1)
+
+
+//faul
+console.log("maureen did this to me")
