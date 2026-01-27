@@ -1,16 +1,5 @@
-//tlass
+//modules
 
-class Car {
-    constructor(name, year){
-        this.name = name;
-        this.year = year
-    }
-}
+import add from './any'
 
-const car1 = new Car('mark X', 2020)
-
-console.log(car1)
-
-
-//faul
-console.log("maureen did this to me")
+console.log(add(23, 3))
