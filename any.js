@@ -3,3 +3,5 @@ function add(a, b){
 }
 
 export default add
+
+console.log("break pls")
